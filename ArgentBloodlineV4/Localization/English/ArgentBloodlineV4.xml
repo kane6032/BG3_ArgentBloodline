@@ -13,5 +13,5 @@
 	<content contentuid="h33972981g0a5ag43d1g94b9gebbb641543ab" version="1">Use a bonus action to end your Forceful Surge.</content>
 	
 	<content contentuid="h53eec32agb172g428bgafa5g8111959b30a1" version="1">Foreceful Surge</content>
-	<content contentuid="hb0b76b7dg4439g4152g9c5cg95d187e2aa0f" version="1">Your surge makes you strong. <br><br>You have <LSTag Tooltip="Advantage">Advantage</LSTag> on Intelligence <LSTag Tooltip="AbilityCheck">Checks</LSTag> and <LSTag Tooltip="SavingThrow">Saving Throws</LSTag>.</content>
+	<content contentuid="hb0b76b7dg4439g4152g9c5cg95d187e2aa0f" version="1">Your surge makes you strong. &lt;br&gt;&lt;br&gt;You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 </contentList>
