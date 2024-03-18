@@ -3,16 +3,16 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
 
 ## Subclass Abilities:
 
-* **Energized (Lvl 1)**
+* **Energized (Lvl 1) - DONE**
   - When not wearing armor your AC is 13+Dex
  * **Amped Shield (Lvl 1)**
-  	- Proficency/Long Rest
+  	- Proficiency/Short Rest
   	- You may cast the Shield spell without expending a spell slot
 
 * **Forceful Surge (Lvl 6)**
   	-	Bonus action
-  	-	X uses per Long Rest (X scales with sorc level)
-  	-	While in this state, damaging spells with the force damage type gain +X damage (X scales with sorc level)
+  	-	X uses per Short Rest (X scales with sorcerer level)
+  	-	While in this state, damaging spells with the force damage type gain +X damage (X scales with sorcerer level)
 
 * **Ethereal Overlord (Lvl 12)**
 	- Adds the following abilities/bonuses while Forceful Surge is active
