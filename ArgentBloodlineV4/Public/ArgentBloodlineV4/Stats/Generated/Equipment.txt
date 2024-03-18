@@ -1,0 +1,2 @@
+new equipment "EQP_ArgentBloodlineV4"
+add initialweaponset "Melee"

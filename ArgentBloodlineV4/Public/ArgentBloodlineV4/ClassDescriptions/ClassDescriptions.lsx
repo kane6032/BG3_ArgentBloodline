@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<save>
+    <version major="4" minor="0" revision="7" build="406" />
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription"> Subclass for Polymath
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h964f2dd4gba63g475aga751ge36c284f25ff" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h76389191ga103g4d66gbeedg923babcd8fe6" version="1" />
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="Name" type="FixedString" value="ArgentBloodline" />
+                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92" />
+                    <attribute id="PrimaryAbility" type="uint8" value="6" />
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_ArgentBloodlineV4" /> 
+                    <attribute id="ProgressionTableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" />
+                    <attribute id="SoundClassType" type="FixedString" value="Sorcerer" />
+                    <attribute id="SpellCastingAbility" type="uint8" value="6" />
+                    <attribute id="UUID" type="guid" value="d43cb4ad-6b14-400c-ac22-151f7f1ecb28" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

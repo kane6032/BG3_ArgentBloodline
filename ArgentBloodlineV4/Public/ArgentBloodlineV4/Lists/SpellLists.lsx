@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<save>
+    <version major="4" minor="0" revision="5" build="0" />
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+				<node id="SpellList"> Spell List for Polymath
+                    <attribute id="Spells" type="LSString" value="CUST_Energized:MageArmor;CUST_ForcefulSurge;CUST_EtherealOverlord;CUST_EtherealOverlord:EtherealJaunt" /> 
+                    <attribute id="UUID" type="guid" value="f8e4a731-0cf9-4026-b369-348e55a4ba49" /> 
+                </node>
+			</children>
+        </node>
+    </region>
+</save>

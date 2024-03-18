@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<save>
+    <version major="4" minor="0" revision="6" build="5" />
+    <region id="Progressions">
+        <node id="root">
+            <children>
+				<node id="Progression"> Main class Progression for Polymath
+                    <attribute id="Name" type="LSString" value="Sorcerer" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);Proficiency(Daggers);Proficiency(Quarterstaffs);Proficiency(LightCrossbows)" />
+                    <attribute id="Level" type="uint8" value="1" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(8743f14b-64de-4858-b056-50902a00df1a,2);SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,4,0,SorcererCantrip,,,AlwaysPrepared);SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,2,0,SorcererSpell);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
+                    <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
+                    <attribute id="UUID" type="guid" value="42af9bda-9ac0-4564-920b-f9ca1588d6ee" />
+					<children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> 
+                                    <attribute id="Object" type="guid" value="d43cb4ad-6b14-400c-ac22-151f7f1ecb28" /> 
+                                </node>
+                            <node id="SubClass"><attribute id="Object" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2" /></node><node id="SubClass"><attribute id="Object" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20" /></node><node id="SubClass"><attribute id="Object" type="guid" value="d379fdae-b401-4731-8d50-277c73919ae3" /></node></children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Subclass Level 1 for Polymath
+                    <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
+					<attribute id="Level" type="uint8" value="1" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="DraconicResilience;DraconicResilience" />
+					<attribute id="Boosts" type="LSString" value="IncreaseMaxHP(ClassLevel(Sorcerer));ActionResource(AmpedShield,5,0)" />
+					<attribute id="Selectors" type="LSString" value="SelectPassives(c69c33a2-671c-46e1-a92c-656fe64ed447,1,DraconicAncestry);AddSpells(f8e4a731-0cf9-4026-b369-348e55a4ba49)" />
+                    <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
+                    <attribute id="UUID" type="guid" value="9f484567-33bc-49dc-bda0-0e26e69d8798" /> 
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

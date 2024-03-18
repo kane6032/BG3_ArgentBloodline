@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<save>
+    <version major="4" minor="0" revision="4" build="600" />
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children> Action resource definitions for Polymath
+                <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="AmpedShield" /> 
+					<attribute id="DisplayName" type="TranslatedString" handle="hf10a6278g6462g4565gb4ecg5bf0d2bdbaa7" version="1" /> 
+					<attribute id="Description" type="TranslatedString" handle="h45e7d3b4gb681g40b0gb512g275d914ae5b1" version="1" /> 
+					<attribute id="DiceType" type="uint32" value="0" /> 
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="ReplenishType" type="FixedString" value="Long Rest" /> 
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" /> 
+                    <attribute id="UUID" type="guid" value="cf6e8bc0-47e7-4407-959c-1cf1d20d2129" /> 
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
