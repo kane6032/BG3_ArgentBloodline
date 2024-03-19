@@ -20,10 +20,27 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
   		-	+2 damage at level 6
   	 	-	+3 damage at level 9	
 
+* **Energy Admix (Lvl 6)**
+	- Toggle
+	- Converts damage spell's damage type to force damage
+
 * **Ethereal Overlord (Lvl 12)**
 	- Adds the following abilities/bonuses while Forceful Surge is active
  	- Gain resistance to all damage types
  	- Once per turn you may use the Ethereal Jaunt ability as a bonus action to teleport 22m (60ft)
+
+## TODO:
+* Create StatusGroups for FORCEFUL_SURGE and ETHEREAL_OVERLORD
+* Find a way to add Ethereal Step (Frenzied Strike) to Ethereal Overlord
+* Readd Amped Shield from V3 files
+* Create Energy Admix
+* Create Levelmaps for: Forge Surge Points, Amped Shield Points, Forceful Surge Damage
+* Edit Name and Desc in ArgentBloodlineV4.xml
+* Edit Progression.lsx
+* Edit SpellLists.lsx
+* Add Transmute Spell (Force) Metamagic / passive for 6th level
+* Testing
+
 
 ## Notes: 
 * All of these should be theoretically possible within the game as other examples of these abilities exist, mostly from rage and frenzy

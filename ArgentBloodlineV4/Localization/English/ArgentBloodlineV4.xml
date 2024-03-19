@@ -4,23 +4,29 @@
 	<content contentuid="h76389191ga103g4d66gbeedg923babcd8fe6" version="1">Your power comes from a long line of ancestors that have spent time in the Ethereal Plane, a space between worlds that requires the use of force magic to be effective. As such your force based magics are elevated to heights unknown to most others. In the past these ancestors have been referred to as Argent Savants, masters of force magic and abjuration.</content>
 
 
-	<content contentuid="ha021b904g9efag4ab1g988egdd9fa7dd2823" version="1">Energized: Mage Armor</content>
+	<content contentuid="ha021b904g9efag4ab1g988egdd9fa7dd2823" version="1">Energized</content>
 	<content contentuid="hac0f1677g63f9g4472g9e94gbec319690225" version="1">Force magic flows through you and bolsters your resilience. When not wearing armor your AC is 13+Dex.</content>
+	
+	<content contentuid="ha021b904g9efag4ab1g988egdd9fa7dd2823" version="1">Amped Shield</content>
+	<content contentuid="hac0f1677g63f9g4472g9e94gbec319690225" version="1">Your bloodline generates excess abjuration magic that can be expended to protect yourself from harm. You may cast the shield spell without expending a spell slot and instead used a AMPED SHIELD POINT</content>
 	
 	<content contentuid="h3a388a99gc512g4107ga41fg8809931b5944" version="1">Forceful Surge</content>
 	<content contentuid="hcde3dd30g1d8cg45deg8b96g0bc06804a3e4" version="1">You may channel inborn energy into a surge of power that augments and enhances your offensive spells that deal force damage. You may activate a Forceful Surge as a bonus action to increase the damage your force spells by your proficiency modifier.</content>
 	
 	<content contentuid="h0fb8b647gee89g4ae6ga873gae9352f1beb0" version="1">Ethereal Overlord</content>
-	<content contentuid="hb6a96dceg31fcg4e43gaa0bg6e9af7b18e08" version="1">Your forceful surge is enhanced, increasing your connection to the ethereal plane. While active, you gain resistance to all damage and may teleport with Ethereal Jaunt as a bonus action on your turn</content>
+	<content contentuid="hb6a96dceg31fcg4e43gaa0bg6e9af7b18e08" version="1">Your forceful surge is enhanced, increasing your connection to the ethereal plane. While active, you gain resistance to all damage and may teleport with Ethereal Step as a bonus action on your turn</content>
 	
-	<content contentuid="h699b1bfdg518eg4827ga465g766503f24d5a" version="1">Ethereal Overlord: Ethereal Jaunt</content>
+	<content contentuid="h699b1bfdg518eg4827ga465g766503f24d5a" version="1">Ethereal Overlord: Ethereal Step</content>
 	<content contentuid="h0839ae7dgc1bfg4010g933fg9279257265b3" version="1">While Forceful Surge is active, you may teleport 22m (60ft) as a bonus action on your turn</content>
 	
-	<content contentuid="h851cc5f9gcfaag42d8gbc6eg906452fa2b1f" version="1">Love Point</content><content contentuid="haba0c47ag46e4g47c3ga366gb2f4b1808a2f" version="1">Test</content>
-	<content contentuid="hac2d27b4gbb46g476bg868cg844e2ddc4a09" version="1">Forceful Surge</content><content contentuid="hb93f6786g9b86g4a91ga548g2cf79f9f445b" version="1">You channel this inborn energy into a surge of power that augments and enhances your offensive spells that deal force damage.</content><content contentuid="hf10a6278g6462g4565gb4ecg5bf0d2bdbaa7" version="1">Amped Shield	</content><content contentuid="h45e7d3b4gb681g40b0gb512g275d914ae5b1" version="1">Your bloodline grants you additional abjuration magic that allows you to protect yourself.</content>
+	
+	<content contentuid="hac2d27b4gbb46g476bg868cg844e2ddc4a09" version="1">Forceful Surge Point</content>
+	<content contentuid="hb93f6786g9b86g4a91ga548g2cf79f9f445b" version="1">You channel this inborn energy into a surge of power that augments and enhances your offensive spells that deal force damage.</content>
+	<content contentuid="hf10a6278g6462g4565gb4ecg5bf0d2bdbaa7" version="1">Amped Shield Point</content>
+	<content contentuid="h45e7d3b4gb681g40b0gb512g275d914ae5b1" version="1">Your bloodline generates excess abjuration magic that can be expended to protect yourself from harm.</content>
 
 
-	<content contentuid="ha50dce00g7f73g468bga014g285d495bf43d" version="1">Foreceful Surge</content>
+	<content contentuid="ha50dce00g7f73g468bga014g285d495bf43d" version="1">Forceful Surge</content>
 	<content contentuid="hcef82760g5c98g472bga617g36781354a508" version="1">While in this state, damaging spells with the force damage type gain +X damage (X scales with sorc level)</content>
 	
 	<content contentuid="hf874fbe8g035fg46b7g8df0g9762415d0337" version="1">End Foreceful Surge</content>
