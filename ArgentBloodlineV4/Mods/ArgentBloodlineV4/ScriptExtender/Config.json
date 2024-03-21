@@ -1,0 +1,5 @@
+{
+  "RequiredVersion": 11,
+  "ModTable": "ArgentBloodlineV4",
+  "FeatureFlags": ["Osiris", "Lua"]
+}

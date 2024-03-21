@@ -30,17 +30,15 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
  	- Once per turn you may use the Ethereal Jaunt ability as a bonus action to teleport 22m (60ft)
 
 ## TODO:
-* Create StatusGroups for FORCEFUL_SURGE and ETHEREAL_OVERLORD
+* ~~Create StatusGroups for FORCEFUL_SURGE and ETHEREAL_OVERLORD~~
 * Find a way to add Ethereal Step (Frenzied Strike) to Ethereal Overlord
-* Readd Amped Shield from V3 files
-* Create Energy Admix
+* ~~Readd Amped Shield from V3 files~~
+* ~~Create Energy Admix~~
 * Create Levelmaps for: Forge Surge Points, Amped Shield Points, Forceful Surge Damage
 * Edit Name and Desc in ArgentBloodlineV4.xml
 * Edit Progression.lsx
 * Edit SpellLists.lsx
-* Add Transmute Spell (Force) Metamagic / passive for 6th level
 * Testing
-
 
 ## Notes: 
 * All of these should be theoretically possible within the game as other examples of these abilities exist, mostly from rage and frenzy
@@ -48,3 +46,9 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
 * Frenzy replaced Rage once you take the subclass at 3rd level, the same should be possible with F.S. and E.O.
 * The damage resistance just needs to be moved from F.S. to E.O.
 * Frenzy adds the extra attack action as a bonus action while raging, this should also be possible to add Ethereal Jaunt (which is coded already as Target_EtherealJaunt) instead
+* How to add Ethereal Step (It'll auto reveal when E.O. is up): https://bg3.norbyte.dev/search?q=Berserker#result-fdc912b19f9cbc78abe346560c438f5af76f1067
+
+## Credits
+* darkcharl who made Metamagic Extended: Transmute Spell which was modified for Energy Admix
+* ImADoctorNotA who made Polymath which was used to create the base file structure for this mod
+* deggertsen who create the initial template for Forceful Surge and showed me the BG3 Search Engine which greatly accelerated developement for this mod

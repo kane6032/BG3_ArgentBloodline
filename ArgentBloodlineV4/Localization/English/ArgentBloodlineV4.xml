@@ -4,34 +4,37 @@
 	<content contentuid="h76389191ga103g4d66gbeedg923babcd8fe6" version="1">Your power comes from a long line of ancestors that have spent time in the Ethereal Plane, a space between worlds that requires the use of force magic to be effective. As such your force based magics are elevated to heights unknown to most others. In the past these ancestors have been referred to as Argent Savants, masters of force magic and abjuration.</content>
 
 
-	<content contentuid="ha021b904g9efag4ab1g988egdd9fa7dd2823" version="1">Energized</content>
-	<content contentuid="hac0f1677g63f9g4472g9e94gbec319690225" version="1">Force magic flows through you and bolsters your resilience. When not wearing armor your AC is 13+Dex.</content>
-	
-	<content contentuid="ha021b904g9efag4ab1g988egdd9fa7dd2823" version="1">Amped Shield</content>
-	<content contentuid="hac0f1677g63f9g4472g9e94gbec319690225" version="1">Your bloodline generates excess abjuration magic that can be expended to protect yourself from harm. You may cast the shield spell without expending a spell slot and instead used a AMPED SHIELD POINT</content>
-	
-	<content contentuid="h3a388a99gc512g4107ga41fg8809931b5944" version="1">Forceful Surge</content>
-	<content contentuid="hcde3dd30g1d8cg45deg8b96g0bc06804a3e4" version="1">You may channel inborn energy into a surge of power that augments and enhances your offensive spells that deal force damage. You may activate a Forceful Surge as a bonus action to increase the damage your force spells by your proficiency modifier.</content>
-	
-	<content contentuid="h0fb8b647gee89g4ae6ga873gae9352f1beb0" version="1">Ethereal Overlord</content>
-	<content contentuid="hb6a96dceg31fcg4e43gaa0bg6e9af7b18e08" version="1">Your forceful surge is enhanced, increasing your connection to the ethereal plane. While active, you gain resistance to all damage and may teleport with Ethereal Step as a bonus action on your turn</content>
-	
-	<content contentuid="h699b1bfdg518eg4827ga465g766503f24d5a" version="1">Ethereal Overlord: Ethereal Step</content>
-	<content contentuid="h0839ae7dgc1bfg4010g933fg9279257265b3" version="1">While Forceful Surge is active, you may teleport 22m (60ft) as a bonus action on your turn</content>
-	
-	
 	<content contentuid="hac2d27b4gbb46g476bg868cg844e2ddc4a09" version="1">Forceful Surge Point</content>
 	<content contentuid="hb93f6786g9b86g4a91ga548g2cf79f9f445b" version="1">You channel this inborn energy into a surge of power that augments and enhances your offensive spells that deal force damage.</content>
 	<content contentuid="hf10a6278g6462g4565gb4ecg5bf0d2bdbaa7" version="1">Amped Shield Point</content>
 	<content contentuid="h45e7d3b4gb681g40b0gb512g275d914ae5b1" version="1">Your bloodline generates excess abjuration magic that can be expended to protect yourself from harm.</content>
 
 
+	<content contentuid="ha021b904g9efag4ab1g988egdd9fa7dd2823" version="1">Energized</content>
+	<content contentuid="hac0f1677g63f9g4472g9e94gbec319690225" version="1">Force magic flows through you and bolsters your resilience. When not wearing armor your AC is 13+Dex.</content>
+	
+	<content contentuid="h87f7cd3bg6a46g420fg8e56g46e90dbcf8a8" version="1">Amped Shield</content>
+	<content contentuid="hb750c863gb5c8g4f95gbec8g18cc02526516" version="1">Your bloodline generates excess abjuration magic that can be expended to protect yourself from harm. You may cast the shield spell without expending a spell slot and instead used a AMPED SHIELD POINT</content>
+	
+	<content contentuid="h3a388a99gc512g4107ga41fg8809931b5944" version="1">Forceful Surge</content>
+	<content contentuid="hcde3dd30g1d8cg45deg8b96g0bc06804a3e4" version="1">You may channel inborn energy into a surge of power that augments and enhances your offensive spells that deal force damage. You may activate a Forceful Surge as a bonus action to increase the damage your force spells by your proficiency modifier.</content>	
+	
+	<content contentuid="ha40362a1gc3cfg4c47ga51cg45149804c689" version="1">Energy Admix</content>
+	<content contentuid="h89cbdf85gf9efg4248g837fgab3f8d9659f8" version="1">Your skill with force-based magic allows you to rewrite spells on the fly, allowing you to alter their properties. While this toggle is active, damaging spells you cast have their damage type converted to force damage</content>	
+	<content contentuid="h2e3fd531gb069g49b7g8586gc2f7172908bf" version="1">Energy Admix: Transmuted Spell (Force)</content>
+	<content contentuid="h12cfd88egfd9ag44f2gbb8bgdd38e283577e" version="1">Changes elemental damage type to Force.</content>
+	<content contentuid="h0a0860d2g300cg4a61g89f6g11cce2cfa3ae" version="1">Energy Admix: Transmuted Spell</content>
+	<content contentuid="hf81293f6g6d18g4338gab5dg5cba9cdd9b8f" version="1">Enables changing the damage type of elemental Spells.</content>
+	
+	<content contentuid="h0fb8b647gee89g4ae6ga873gae9352f1beb0" version="1">Ethereal Overlord</content>
+	<content contentuid="hb6a96dceg31fcg4e43gaa0bg6e9af7b18e08" version="1">Your forceful surge is enhanced, increasing your connection to the ethereal plane. While active, you gain resistance to all damage and may teleport with Ethereal Step as a bonus action on your turn</content>	
+	<content contentuid="h699b1bfdg518eg4827ga465g766503f24d5a" version="1">Ethereal Overlord: Ethereal Step</content>
+	<content contentuid="h0839ae7dgc1bfg4010g933fg9279257265b3" version="1">While Forceful Surge is active, you may teleport 22m (60ft) as a bonus action on your turn</content>
+	
 	<content contentuid="ha50dce00g7f73g468bga014g285d495bf43d" version="1">Forceful Surge</content>
-	<content contentuid="hcef82760g5c98g472bga617g36781354a508" version="1">While in this state, damaging spells with the force damage type gain +X damage (X scales with sorc level)</content>
-	
+	<content contentuid="hcef82760g5c98g472bga617g36781354a508" version="1">While in this state, damaging spells with the force damage type gain +X damage (X scales with sorc level)</content>	
 	<content contentuid="hf874fbe8g035fg46b7g8df0g9762415d0337" version="1">End Foreceful Surge</content>
-	<content contentuid="h33972981g0a5ag43d1g94b9gebbb641543ab" version="1">Use a bonus action to end your Forceful Surge.</content>
-	
+	<content contentuid="h33972981g0a5ag43d1g94b9gebbb641543ab" version="1">Use a bonus action to end your Forceful Surge.</content>	
 	<content contentuid="h53eec32agb172g428bgafa5g8111959b30a1" version="1">Foreceful Surge</content>
 	<content contentuid="hb0b76b7dg4439g4152g9c5cg95d187e2aa0f" version="1">Your surge makes you strong. &lt;br&gt;&lt;br&gt;You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 </contentList>
