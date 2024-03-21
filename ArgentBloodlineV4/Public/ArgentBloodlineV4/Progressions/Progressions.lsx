@@ -4,7 +4,7 @@
     <region id="Progressions">
         <node id="root">
             <children>
-				<node id="Progression"> Main class Progression for Polymath
+				<node id="Progression"> Main class Progression
                     <attribute id="Name" type="LSString" value="Sorcerer" />
 					<attribute id="AllowImprovement" type="bool" value="false" />
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);Proficiency(Daggers);Proficiency(Quarterstaffs);Proficiency(LightCrossbows)" />
@@ -23,15 +23,56 @@
                         </node>
                     </children>
                 </node>
-				<node id="Progression"> Subclass Level 1 for Polymath
+				<node id="Progression"> Subclass Level 1 - DONE
                     <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
 					<attribute id="Level" type="uint8" value="1" />
                     <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value="CUST_Energized:MageArmor" />
-					<attribute id="Boosts" type="LSString" value="ActionResource(ForcefulSurge,5,0);ActionResource(AmpedShield,4,0)" />
-					<attribute id="Selectors" type="LSString" value="AddSpells(f8e4a731-0cf9-4026-b369-348e55a4ba49)" /> /
+                    <attribute id="PassivesAdded" type="LSString" value="Energized" />
+					<attribute id="Boosts" type="LSString" value="ActionResource(AmpedShield,2,0)" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(ff87e3f7-ae54-4bf2-8966-9dcd0fa3a943)" /> /
                     <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
-                    <attribute id="UUID" type="guid" value="9f484567-33bc-49dc-bda0-0e26e69d8798" /> 
+                    <attribute id="UUID" type="guid" value="38b2bf56-a368-4988-96f4-44f7eacd31ca" /> 
+                </node>
+				<node id="Progression"> Subclass Level 5 - DONE
+                    <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
+					<attribute id="Level" type="uint8" value="6" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="Boosts" type="LSString" value="ActionResource(AmpedShield,3,0)" />
+					<attribute id="Selectors" type="LSString" value="" /> /
+                    <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
+                    <attribute id="UUID" type="guid" value="d74e205c-193e-4003-8234-1cd81a05bfd5" /> 
+                </node>				
+				<node id="Progression"> Subclass Level 6 - VERIFY FS BOOST
+                    <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
+					<attribute id="Level" type="uint8" value="6" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="EnergyAdmix;Metamagic_Transmuted_Force;ForcefulSurge_Boosts" />
+					<attribute id="Boosts" type="LSString" value="ActionResource(ForcefulSurge,3,0);FORCEFUL_SURGE" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(ecd5c730-a0d3-4fdb-a58d-c3c2f10fa606)" /> /
+                    <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
+                    <attribute id="UUID" type="guid" value="e22d4f33-e231-4b6f-97b6-d684b901e017" /> 
+                </node>
+				<node id="Progression"> Subclass Level 9 - DONE
+                    <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
+					<attribute id="Level" type="uint8" value="9" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="Boosts" type="LSString" value="ActionResource(ForcefulSurge,4,0);ActionResource(AmpedShield,4,0)" />
+					<attribute id="Selectors" type="LSString" value="" /> /
+                    <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
+                    <attribute id="UUID" type="guid" value="84b7f66f-f053-4e4f-ad85-ccb19c8df012" /> 
+                </node>
+				<node id="Progression"> Subclass Level 12 - VERIFY EO BOOST
+                    <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
+					<attribute id="Level" type="uint8" value="12" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="EtherealOverlord_Boosts" />
+					<attribute id="PassivesRemoved" type="LSString" value="ForcefulSurge_Boosts"/>
+					<attribute id="Boosts" type="LSString" value="ActionResource(ForcefulSurge,5,0);ETHEREAL_OVERLORD" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(583c4c7d-02ff-4215-818e-60c6f880fd99)" /> /
+                    <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
+                    <attribute id="UUID" type="guid" value="2db2dd92-3071-4ba7-9dae-1337df82f44f" /> 
                 </node>
             </children>
         </node>

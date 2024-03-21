@@ -78,7 +78,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h3a388a99gc512g4107ga41fg8809931b5944"
 data "Description" "hcde3dd30g1d8cg45deg8b96g0bc06804a3e4"
-data "DescriptionParams" "LevelMapValue(RageDamage)" 		// Need to replace level map value
+data "DescriptionParams" "LevelMapValue(ForcefulSurgeDamage)" 		// Need to replace level map value
 data "Icon" "Action_Barbarian_Rage"
 data "SoundLoop" "Spell_Status_Rage"
 data "SoundStop" "Spell_Status_Rage_Stop"
@@ -126,7 +126,7 @@ data "Description" "hb0b76b7dg4439g4152g9c5cg95d187e2aa0f"
 data "Properties" "IsHidden"
 data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "not HasHeavyArmor(context.Source)"
-data "Boosts" "IF(IsSpell() and IsDamageTypeForce()):DamageBonus(LevelMapValue(RageDamage))" // Make this a levelmap
+data "Boosts" "IF(IsSpell() and IsDamageTypeForce()):DamageBonus(LevelMapValue(ForcefulSurgeDamage))" // Make this a levelmap
 
 // ---------------------------------------------------- Ethereal Overlord ----------------------------------------------------
 
@@ -136,7 +136,7 @@ data "StatusType" "BOOST"
 using "FORCEFUL_SURGE"
 data "DisplayName" "h0fb8b647gee89g4ae6ga873gae9352f1beb0"
 data "Description" "hb6a96dceg31fcg4e43gaa0bg6e9af7b18e08"
-data "DescriptionParams" "LevelMapValue(RageDamage)" 		// Need to replace level map value
+data "DescriptionParams" "LevelMapValue(ForcefulSurgeDamage)" 		// Need to replace level map value
 data "Icon" "Action_Barbarian_Rage"
 data "SoundLoop" "Spell_Status_Rage"
 data "SoundStop" "Spell_Status_Rage_Stop"
