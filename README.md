@@ -42,6 +42,14 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
 * May need to create a FORCEFUL_SURGE_unlock and ETHEREAL_OVERLORD_unlock
 * Testing
 
+## Bugs:
+* APPLIED - Naked
+* Missing all class features, check the old V4 subclass template from polymath which had them and see what's different
+* APPLIED - Icon incorrect (is a skull so maybe the default)
+* APPLIED - Modify amped shield progression so it only gives 1 instead of X
+* APPLIED - Modify forceful surge progression so it only gives 1 instead of X
+
+
 ## Notes: 
 * All of these should be theoretically possible within the game as other examples of these abilities exist, mostly from rage and frenzy
 * Rage adds a scaling damage bonus to melee attacks, Lvl 6 Draconic Bloodline's Elemental Affinity adds Cha to spells of the same type. Just need to find a way to combine them
