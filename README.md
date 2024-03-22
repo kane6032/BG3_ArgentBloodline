@@ -35,7 +35,7 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
 * ~~Readd Amped Shield from V3 files~~
 * ~~Create Energy Admix~~
 * ~~Create Levelmaps for: Forge Surge Points, Amped Shield Points, Forceful Surge Damage~~
-* Edit Name and Desc in ArgentBloodlineV4.xml
+* ~~Edit Name and Desc in ArgentBloodlineV4.xml~~
 * ~~Edit Progression.lsx (be sure to set uses for surge points and shield points)~~
 * ~~Edit SpellLists.lsx~~
 * See if FORCEFUL_SURGE needs to be removed when ETHEREAL_OVERLORD is unlocked. Check Barbarian progression table https://bg3.norbyte.dev/search?q=RageUnlock#result-0e8daddc6f779cb637cee919674191db310e0cc9

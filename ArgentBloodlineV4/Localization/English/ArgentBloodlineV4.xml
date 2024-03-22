@@ -31,10 +31,16 @@
 	<content contentuid="h699b1bfdg518eg4827ga465g766503f24d5a" version="1">Ethereal Overlord: Ethereal Step</content>
 	<content contentuid="h0839ae7dgc1bfg4010g933fg9279257265b3" version="1">While Forceful Surge is active, you may teleport 22m (60ft) as a bonus action on your turn</content>
 	
+	
 	<content contentuid="ha50dce00g7f73g468bga014g285d495bf43d" version="1">Forceful Surge</content>
-	<content contentuid="hcef82760g5c98g472bga617g36781354a508" version="1">While in this state, damaging spells with the force damage type gain +X damage (X scales with sorc level)</content>	
+	<content contentuid="hcef82760g5c98g472bga617g36781354a508" version="1">While in this state, damaging spells with the force damage type gain a damage bonus</content>	
 	<content contentuid="hf874fbe8g035fg46b7g8df0g9762415d0337" version="1">End Foreceful Surge</content>
 	<content contentuid="h33972981g0a5ag43d1g94b9gebbb641543ab" version="1">Use a bonus action to end your Forceful Surge.</content>	
-	<content contentuid="h53eec32agb172g428bgafa5g8111959b30a1" version="1">Foreceful Surge</content>
-	<content contentuid="hb0b76b7dg4439g4152g9c5cg95d187e2aa0f" version="1">Your surge makes you strong. &lt;br&gt;&lt;br&gt;You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h53eec32agb172g428bgafa5g8111959b30a1" version="1">Foreceful Surge Bonus</content>
+	<content contentuid="hb0b76b7dg4439g4152g9c5cg95d187e2aa0f" version="1">Your surge makes you stronger.</content>
+	
+	<content contentuid="hf34ab838g53d8g499fgac0eg32a97009978e" version="1">Ethereal Overlord Bonus</content>
+	<content contentuid="h09621810g5410g4af2gbb08gf459d7a596a5" version="1">Your surge makes you even stronger.</content>
+	<content contentuid="h73af3e4cg4fa0g41fegb57fg8583cd6fee97" version="1">End Empowered Forceful Surge</content>
+	<content contentuid="h6ce54556g0801g42feg8adcga5591eed6fab" version="1">Use a bonus action to end your empowered Forceful Surge.</content>
 </contentList>
