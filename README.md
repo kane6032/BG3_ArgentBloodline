@@ -43,11 +43,13 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
 * Testing
 
 ## Bugs:
-* APPLIED - Naked
-* Missing all class features, check the old V4 subclass template from polymath which had them and see what's different
-* APPLIED - Icon incorrect (is a skull so maybe the default)
-* APPLIED - Modify amped shield progression so it only gives 1 instead of X
-* APPLIED - Modify forceful surge progression so it only gives 1 instead of X
+* ~~FIXED - Naked~~
+* APPLIED - Missing ~~AS~~, FS, and EO class features. Add start_XXXX actions for FS + EO. ~~Modify AS~~
+* ~~FIXED - EO_end given at level 1~~
+* Energy Admix is present but doesn't convert the damage type. Check the function in the khd scripts file
+* ~~FIXED - Icon incorrect (is a skull so maybe the default)~~
+* ~~FIXED - Modify amped shield progression so it only gives 1 instead of X~~
+* ~~FIXED - Modify forceful surge progression so it only gives 1 instead of X~~
 
 
 ## Notes: 

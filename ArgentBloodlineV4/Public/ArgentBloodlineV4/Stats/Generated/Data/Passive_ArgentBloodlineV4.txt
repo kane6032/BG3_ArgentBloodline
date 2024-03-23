@@ -1,0 +1,78 @@
+// ---------------------------------------------------- Energized ----------------------------------------------------
+
+new entry "Energized"
+type "PassiveData"
+data "DisplayName" "ha021b904g9efag4ab1g988egdd9fa7dd2823"
+data "Description" "hac0f1677g63f9g4472g9e94gbec319690225"
+data "Icon" "Spell_Abjuration_MageArmor"
+data "Properties" "Highlighted"
+data "BoostContext" "OnEquip;OnCreate"
+data "BoostConditions" "not WearingArmor(context.Source)"
+data "Boosts" "ACOverrideFormula(13,true,Dexterity)"
+
+// ---------------------------------------------------- Energy Admix ----------------------------------------------------
+
+new entry "EnergyAdmix"
+type "PassiveData"
+data "DisplayName" "ha40362a1gc3cfg4c47ga51cg45149804c689"
+data "Description" "h89cbdf85gf9efg4248g837fgab3f8d9659f8"
+data "Icon" "GenericIcon_DamageType_Force"
+data "EnabledConditions" "HasActionResource('SorceryPoint', 0, 0, false, false, context.Source)"
+data "EnabledContext" "OnCastResolved;OnLongRest;OnActionResourcesChanged"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted"
+data "Boosts" "UnlockSpellVariant(TransmutedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,0,0),ModifyTooltipDescription(),ModifyIconGlow())"
+data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_Metamagic_Heightened_HeadFX_01:Dummy_HeadFX"
+data "ToggleOffContext" "OnCastResolved"
+data "ToggleOnFunctors" "ApplyStatus(SELF,METAMAGIC_TRANSMUTED_SPELL,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(METAMAGIC_TRANSMUTED_SPELL);RemoveStatus(METAMAGIC_TRANSMUTED_FORCE)"
+data "ToggleGroup" "Metamagic"
+
+new entry "Metamagic_Transmuted_Force"
+type "PassiveData"
+data "DisplayName" "h2e3fd531gb069g49b7g8586gc2f7172908bf"
+data "Description" "h12cfd88egfd9ag44f2gbb8bgdd38e283577e"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_DamageType_Force"
+data "EnabledContext" "OnCastResolved"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar"
+data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_Metamagic_Heightened_HeadFX_01:Dummy_HeadFX"
+data "ToggleOffContext" "OnCastResolved"
+data "ToggleOnFunctors" "ApplyStatus(SELF,METAMAGIC_TRANSMUTED_FORCE,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(METAMAGIC_TRANSMUTED_FORCE)"
+data "ToggleGroup" "TransmutedSpell"
+
+// ---------------------------------------------------- Forceful Surge ----------------------------------------------------
+
+new entry "ForcefulSurgeUnlock"
+type "PassiveData"
+data "DisplayName" "h2eb05e51g4b01g4a47g9ee6g92b7b027ef08"
+data "Description" "hfa5b9064ga71fg4996g8861g98043c721a22"
+data "Icon" "Action_Barbarian_Rage"
+data "Boosts" "UnlockSpell(Shout_ForcefulSurge)"
+
+new entry "ForcefulSurge_Boosts"
+type "PassiveData"
+data "DisplayName" "h53eec32agb172g428bgafa5g8111959b30a1"
+data "Description" "hb0b76b7dg4439g4152g9c5cg95d187e2aa0f"
+data "Properties" "IsHidden"
+data "BoostContext" "OnEquip;OnCreate"
+data "BoostConditions" "not HasHeavyArmor(context.Source)"
+data "Boosts" "IF(IsSpell() and IsDamageTypeForce()):DamageBonus(LevelMapValue(ForcefulSurgeDamage))"
+
+// ---------------------------------------------------- Ethereal Overlord ----------------------------------------------------
+
+new entry "EtherealOverlordUnlock"
+type "PassiveData"
+data "DisplayName" "hd601d1feg789cg47ddg92d8g9db1341b6b0c"
+data "Description" "hea90267cgaa0eg4effg8d69gbd51bcf488aa"
+data "Icon" "Action_Barbarian_Rage"
+data "Boosts" "UnlockSpell(Shout_EtherealOverlord)"
+
+new entry "EtherealOverlord_Boosts"
+type "PassiveData"
+data "DisplayName" "hf34ab838g53d8g499fgac0eg32a97009978e"
+data "Description" "h09621810g5410g4af2gbb08gf459d7a596a5"
+data "Properties" "IsHidden"
+data "BoostContext" "OnEquip;OnCreate"
+data "BoostConditions" "not HasHeavyArmor(context.Source)"
+data "Boosts" "Resistance(Slashing, Resistant); Resistance(Piercing, Resistant); Resistance(Bludgeoning, Resistant); Resistance(Cold, Resistant); Resistance(Fire, Resistant); Resistance(Lightning, Resistant); Resistance(Thunder, Resistant); Resistance(Acid, Resistant); Resistance(Poison, Resistant); Resistance(Radiant, Resistant); Resistance(Necrotic, Resistant); Resistance(Force, Resistant); Resistance(Psychic, Resistant)"

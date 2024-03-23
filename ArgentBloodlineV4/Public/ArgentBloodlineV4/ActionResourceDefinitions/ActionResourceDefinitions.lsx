@@ -10,7 +10,7 @@
 					<attribute id="Description" type="TranslatedString" handle="hb93f6786g9b86g4a91ga548g2cf79f9f445b" version="1" /> 
 					<attribute id="DiceType" type="uint32" value="0" /> 
                     <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="ReplenishType" type="FixedString" value="Long Rest" /> 
+                    <attribute id="ReplenishType" type="FixedString" value="FullRest" /> 
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" /> 
                     <attribute id="UUID" type="guid" value="c2744d95-320c-4890-89ee-2cbc14eb565e" /> 
                 </node>
@@ -20,7 +20,7 @@
 					<attribute id="Description" type="TranslatedString" handle="h45e7d3b4gb681g40b0gb512g275d914ae5b1" version="1" /> 
 					<attribute id="DiceType" type="uint32" value="0" /> 
                     <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="ReplenishType" type="FixedString" value="Short Rest" /> 
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" /> 
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" /> 
                     <attribute id="UUID" type="guid" value="cf6e8bc0-47e7-4407-959c-1cf1d20d2129" /> 
                 </node>

@@ -5,15 +5,18 @@
         <node id="root">
             <children>
 				<node id="SpellList"> Amped Shield
-                    <attribute id="Spells" type="LSString" value="AmpedShield" /> 
+					<attribute id="Comment" type="LSString" value="Amped Shield"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AmpedShield" /> 
                     <attribute id="UUID" type="guid" value="ff87e3f7-ae54-4bf2-8966-9dcd0fa3a943" /> 
                 </node>
 				<node id="SpellList"> Forceful Surge
-                    <attribute id="Spells" type="LSString" value="Shout_EndForcefulSurge" /> 
+					<attribute id="Comment" type="LSString" value="Forceful Surge"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ForcefulSurge;Shout_EndForcefulSurge" /> 
                     <attribute id="UUID" type="guid" value="ecd5c730-a0d3-4fdb-a58d-c3c2f10fa606" /> 
                 </node>
 				<node id="SpellList"> Ethereal Overlord and Ethereal Step
-                    <attribute id="Spells" type="LSString" value="Shout_EndEtherealOverlord; Target_EtherealOverlordStep" /> 
+					<attribute id="Comment" type="LSString" value="Ethereal Overlord and Ethereal Step"/>
+                    <attribute id="Spells" type="LSString" value="Shout_EtherealOverlord;Shout_EndEtherealOverlord;Target_EtherealOverlordStep" /> 
                     <attribute id="UUID" type="guid" value="583c4c7d-02ff-4215-818e-60c6f880fd99" /> 
                 </node>			
 			</children>

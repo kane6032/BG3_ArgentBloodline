@@ -1,0 +1,4 @@
+new entry "Interrupt_AmpedShield"
+type "InterruptData"
+using "Interrupt_Shield_Wizard"
+data "Cost" "ReactionActionPoint:1;AmpedShield:1"

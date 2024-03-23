@@ -33,14 +33,20 @@
 	
 	
 	<content contentuid="ha50dce00g7f73g468bga014g285d495bf43d" version="1">Forceful Surge</content>
-	<content contentuid="hcef82760g5c98g472bga617g36781354a508" version="1">While in this state, damaging spells with the force damage type gain a damage bonus</content>	
-	<content contentuid="hf874fbe8g035fg46b7g8df0g9762415d0337" version="1">End Foreceful Surge</content>
+	<content contentuid="hcef82760g5c98g472bga617g36781354a508" version="1">While in this state, damaging spells with the force damage type gain a damage bonus</content>
+	<content contentuid="h2eb05e51g4b01g4a47g9ee6g92b7b027ef08" version="1">Forceful Surge</content>
+	<content contentuid="hfa5b9064ga71fg4996g8861g98043c721a22" version="1">You can use the Forceful Surge feature.</content>	
+	<content contentuid="hf874fbe8g035fg46b7g8df0g9762415d0337" version="1">End Forceful Surge</content>
 	<content contentuid="h33972981g0a5ag43d1g94b9gebbb641543ab" version="1">Use a bonus action to end your Forceful Surge.</content>	
-	<content contentuid="h53eec32agb172g428bgafa5g8111959b30a1" version="1">Foreceful Surge Bonus</content>
+	<content contentuid="h53eec32agb172g428bgafa5g8111959b30a1" version="1">Forceful Surge Bonus</content>
 	<content contentuid="hb0b76b7dg4439g4152g9c5cg95d187e2aa0f" version="1">Your surge makes you stronger.</content>
 	
+	<content contentuid="ha493ec62gb506g41b4gae63g67d71c3ef6a3" version="1">Empowered Forceful Surge</content>
+	<content contentuid="h38645bbdg4472g4484g8bf2g60d7e7ee3ba9" version="1">While in this state, damaging spells with the force damage type gain a damage bonus. You also gain resistance to all damage and may use the Ethereal Step feature as a bonus action.</content>
 	<content contentuid="hf34ab838g53d8g499fgac0eg32a97009978e" version="1">Ethereal Overlord Bonus</content>
 	<content contentuid="h09621810g5410g4af2gbb08gf459d7a596a5" version="1">Your surge makes you even stronger.</content>
+	<content contentuid="hd601d1feg789cg47ddg92d8g9db1341b6b0c" version="1">Empowered Forceful Surge</content>
+	<content contentuid="hea90267cgaa0eg4effg8d69gbd51bcf488aa" version="1">You can use the Empowered Forceful Surge feature.</content>	
 	<content contentuid="h73af3e4cg4fa0g41fegb57fg8583cd6fee97" version="1">End Empowered Forceful Surge</content>
-	<content contentuid="h6ce54556g0801g42feg8adcga5591eed6fab" version="1">Use a bonus action to end your empowered Forceful Surge.</content>
+	<content contentuid="h6ce54556g0801g42feg8adcga5591eed6fab" version="1">Use a bonus action to end your Empowered Forceful Surge.</content>
 </contentList>
