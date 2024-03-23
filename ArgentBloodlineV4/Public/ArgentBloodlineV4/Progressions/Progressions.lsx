@@ -56,9 +56,9 @@
                     <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
 					<attribute id="Level" type="uint8" value="6" />
                     <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value="EnergyAdmix" />
+                    <attribute id="PassivesAdded" type="LSString" value="EnergyAdmix;ForcefulSurgeUnlock" />
 					<attribute id="Boosts" type="LSString" value="ActionResource(ForcefulSurge,3,0)" />
-					<attribute id="Selectors" type="LSString" value="AddSpells(ecd5c730-a0d3-4fdb-a58d-c3c2f10fa606)" /> /
+					<attribute id="Selectors" type="LSString" value="" /> /
                     <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
                     <attribute id="UUID" type="guid" value="e22d4f33-e231-4b6f-97b6-d684b901e017" /> 
                 </node>
@@ -76,10 +76,10 @@
                     <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
 					<attribute id="Level" type="uint8" value="12" />
                     <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
-					<attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="PassivesRemoved" type="LSString" value="ForcefulSurgeUnlock"/>
+                    <attribute id="PassivesAdded" type="LSString" value="EtherealOverlordUnlock" />
 					<attribute id="Boosts" type="LSString" value="ActionResource(ForcefulSurge,1,0)" />
-					<attribute id="Selectors" type="LSString" value="AddSpells(583c4c7d-02ff-4215-818e-60c6f880fd99)" /> /
+					<attribute id="Selectors" type="LSString" value="" /> /
                     <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
                     <attribute id="UUID" type="guid" value="2db2dd92-3071-4ba7-9dae-1337df82f44f" /> 
                 </node>

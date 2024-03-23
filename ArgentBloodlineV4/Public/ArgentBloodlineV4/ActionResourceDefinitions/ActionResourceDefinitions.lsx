@@ -10,7 +10,7 @@
 					<attribute id="Description" type="TranslatedString" handle="hb93f6786g9b86g4a91ga548g2cf79f9f445b" version="1" /> 
 					<attribute id="DiceType" type="uint32" value="0" /> 
                     <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="ReplenishType" type="FixedString" value="FullRest" /> 
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" /> 
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" /> 
                     <attribute id="UUID" type="guid" value="c2744d95-320c-4890-89ee-2cbc14eb565e" /> 
                 </node>

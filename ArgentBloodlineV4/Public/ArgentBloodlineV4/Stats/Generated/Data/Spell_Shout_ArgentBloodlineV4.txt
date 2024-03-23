@@ -1,19 +1,5 @@
 // ---------------------------------------------------- Amped Shield ----------------------------------------------------
 
-//new entry "Shout_AmpedShield"
-//type "SpellData"
-//data "SpellType" "Shout"
-//using "Interrupt_Shield_Sorcerer"
-//data "Level" "1"
-//data "SpellSchool" "Abjuration"
-//data "DisplayName" "h87f7cd3bg6a46g420fg8e56g46e90dbcf8a8"
-//data "Description" "hb750c863gb5c8g4f95gbec8g18cc02526516"
-//data "UseCosts" "ReactionPoint:1;AmpedShield:1"
-//data "MemoryCost" ""
-//data "RootSpellID" ""
-//data "PowerLevel" ""
-//data "InterruptPrototype" "Interrupt_Shield_Sorcerer"
-
 new entry "Shout_AmpedShield"
 type "SpellData"
 data "SpellType" "Shout"

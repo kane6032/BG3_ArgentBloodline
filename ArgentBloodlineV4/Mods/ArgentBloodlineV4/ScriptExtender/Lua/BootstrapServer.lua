@@ -36,7 +36,7 @@ local function HandleBeforeDealDamage(e)
 ---		local isTransmutedToLightning = HasActiveStatus(inflicterEntityUuid, "METAMAGIC_TRANSMUTED_LIGHTNING") == 1
 ---		local isTransmutedToPoison = HasActiveStatus(inflicterEntityUuid, "METAMAGIC_TRANSMUTED_POISON") == 1
 ---		local isTransmutedToThunder = HasActiveStatus(inflicterEntityUuid, "METAMAGIC_TRANSMUTED_THUNDER") == 1
-		
+
 		if (Debug) then
 			_P('-- isTransmutedToForce')
 			_D(isTransmutedToForce)
@@ -51,7 +51,7 @@ local function HandleBeforeDealDamage(e)
 ---			_P('-- isTransmutedToPoison')
 ---			_D(isTransmutedToPoison)
 ---			_P('-- isTransmutedToThunder')
----			_D(isTransmutedToThunder)			
+---			_D(isTransmutedToThunder)
 		end
 		
 		if (Osi.IsPlayer(inflicterEntityUuid)) then
