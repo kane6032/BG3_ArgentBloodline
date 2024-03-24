@@ -10,7 +10,7 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
    		- Currently set up with a separate Action Resource, this needs to be changed if possible
   	- You may cast the Shield spell without expending a spell slot
 
-* **Forceful Surge (Lvl 6) - DONE**
+* **Forceful Surge (Lvl 6) - BUGGED**
   	-	Bonus action
   	-	X uses per Long Rest (X scales with sorcerer level)
   		-	3 uses at level 6
@@ -24,7 +24,7 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
 	- Toggle
 	- Converts damage spell's damage type to force damage
 
-* **Ethereal Overlord (Lvl 12) - DONE**
+* **Ethereal Overlord (Lvl 12) - BUGGED?**
 	- Adds the following abilities/bonuses while Forceful Surge is active
  	- Gain resistance to all damage types
  	- Once per turn you may use the Ethereal Jaunt ability as a bonus action to teleport 22m (60ft)
@@ -38,19 +38,19 @@ This is a mod for Baldur's Gate 3 with the goal of adding a force/abjuration-bas
 * ~~Edit Name and Desc in ArgentBloodlineV4.xml~~
 * ~~Edit Progression.lsx (be sure to set uses for surge points and shield points)~~
 * ~~Edit SpellLists.lsx~~
-* See if FORCEFUL_SURGE needs to be removed when ETHEREAL_OVERLORD is unlocked. Check Barbarian progression table https://bg3.norbyte.dev/search?q=RageUnlock#result-0e8daddc6f779cb637cee919674191db310e0cc9
-* May need to create a FORCEFUL_SURGE_unlock and ETHEREAL_OVERLORD_unlock
+* ~~See if FORCEFUL_SURGE needs to be removed when ETHEREAL_OVERLORD is unlocked. Check Barbarian progression table https://bg3.norbyte.dev/search?q=RageUnlock#result-0e8daddc6f779cb637cee919674191db310e0cc9~~
+* ~~May need to create a FORCEFUL_SURGE_unlock and ETHEREAL_OVERLORD_unlock~~
 * Testing
 
 ## Bugs:
 * ~~FIXED - Naked~~
-* APPLIED - Missing ~~AS~~, FS, and EO class features. Add start_XXXX actions for FS + EO. ~~Modify AS~~
+* ~~FIXED - Missing AS, FS, and EO class features. Add start_XXXX actions for FS + EO.~~
 * ~~FIXED - EO_end given at level 1~~
-* Energy Admix is present but doesn't convert the damage type. Check the function in the khd scripts file
+* ~~FIXED - Energy Admix is present but doesn't convert the damage type. Check the function in the khd scripts file~~
 * ~~FIXED - Icon incorrect (is a skull so maybe the default)~~
 * ~~FIXED - Modify amped shield progression so it only gives 1 instead of X~~
 * ~~FIXED - Modify forceful surge progression so it only gives 1 instead of X~~
-
+* FS doesn't boost force damage
 
 ## Notes: 
 * All of these should be theoretically possible within the game as other examples of these abilities exist, mostly from rage and frenzy

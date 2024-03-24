@@ -1,0 +1,20 @@
+// ---------------------------------------------------- Energy Admix ----------------------------------------------------
+
+new entry "METAMAGIC_TRANSMUTED_SPELL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h0a0860d2g300cg4a61g89f6g11cce2cfa3ae"
+data "Description" "hf81293f6g6d18g4338gab5dg5cba9cdd9b8f"
+data "Icon" "GenericIcon_DamageType_Force"
+data "StackId" "METAMAGIC"
+data "Passives" "Metamagic_Transmuted_Force"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "METAMAGIC_TRANSMUTED_FORCE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h2e3fd531gb069g49b7g8586gc2f7172908bf"
+data "Description" "h12cfd88egfd9ag44f2gbb8bgdd38e283577e"
+data "Icon" "GenericIcon_DamageType_Force"
+data "StackId" "METAMAGIC"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator"
