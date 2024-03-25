@@ -21,6 +21,7 @@ local function TransmuteDamage(e, damage_type)
 	if (e.Hit.Results.DamageRolls) then
 		local damageRollForOriginalType = e.Hit.Results.DamageRolls[originalDamageType]
 		e.Hit.Results.DamageRolls[damage_type] = damageRollForOriginalType
+---		e.Hit.Results.DamageRolls[damage_type] = damageRollForOriginalType + (Osi.GetAbility(character, Charisma)/2) will maybe fix EnergyAdmix
 	end
 end
 

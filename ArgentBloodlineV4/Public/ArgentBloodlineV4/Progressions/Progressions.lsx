@@ -52,7 +52,7 @@
                     <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
                     <attribute id="UUID" type="guid" value="d74e205c-193e-4003-8234-1cd81a05bfd5" /> 
                 </node>				
-				<node id="Progression"> Subclass Level 6 - VERIFY FS BOOST
+				<node id="Progression"> Subclass Level 6 - DONE
                     <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
 					<attribute id="Level" type="uint8" value="6" />
                     <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
@@ -72,7 +72,7 @@
                     <attribute id="TableUUID" type="guid" value="588c55fc-fa1d-4c4e-a104-5f99d2fc422f" /> 
                     <attribute id="UUID" type="guid" value="84b7f66f-f053-4e4f-ad85-ccb19c8df012" /> 
                 </node>
-				<node id="Progression"> Subclass Level 12 - VERIFY EO BOOST
+				<node id="Progression"> Subclass Level 12 - DONE
                     <attribute id="Name" type="LSString" value="ArgentBloodlineV4" />
 					<attribute id="Level" type="uint8" value="12" />
                     <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass

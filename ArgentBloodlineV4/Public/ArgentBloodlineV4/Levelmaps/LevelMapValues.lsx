@@ -20,6 +20,38 @@
                     <attribute id="Name" type="FixedString" value="ForcefulSurgeDamage"/>
                     <attribute id="UUID" type="guid" value="dfbceab6-4c2a-4d7a-9c32-3ca57ab0205f"/>
 				</node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="3"/>					
+                    <attribute id="Level2" type="LSString" value="3"/>
+                    <attribute id="Level3" type="LSString" value="4"/>
+                    <attribute id="Level4" type="LSString" value="4"/>
+                    <attribute id="Level5" type="LSString" value="5"/>
+                    <attribute id="Level6" type="LSString" value="5"/>
+                    <attribute id="Level7" type="LSString" value="6"/>
+                    <attribute id="Level8" type="LSString" value="6"/>
+                    <attribute id="Level9" type="LSString" value="7"/>
+                    <attribute id="Level10" type="LSString" value="7"/>			
+                    <attribute id="Level11" type="LSString" value="8"/>	
+                    <attribute id="Level12" type="LSString" value="8"/>						
+                    <attribute id="Name" type="FixedString" value="MagicMissile_Unstable"/>
+                    <attribute id="UUID" type="guid" value="2371ec75-5a01-4bae-852e-4f56c9d18c39"/>
+                </node>
+				<node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1"/>					
+                    <attribute id="Level2" type="LSString" value="1"/>
+                    <attribute id="Level3" type="LSString" value="1"/>
+                    <attribute id="Level4" type="LSString" value="1"/>
+                    <attribute id="Level5" type="LSString" value="2"/>
+                    <attribute id="Level6" type="LSString" value="2"/>
+                    <attribute id="Level7" type="LSString" value="2"/>
+                    <attribute id="Level8" type="LSString" value="2"/>
+                    <attribute id="Level9" type="LSString" value="2"/>
+                    <attribute id="Level10" type="LSString" value="3"/>			
+                    <attribute id="Level11" type="LSString" value="3"/>	
+                    <attribute id="Level12" type="LSString" value="3"/>						
+                    <attribute id="Name" type="FixedString" value="MagicMissile_Weakened"/>
+                    <attribute id="UUID" type="guid" value="83a96acb-c9af-4a19-8c63-b4c676010b1c"/>
+                </node>				
             </children>
         </node>
     </region>
